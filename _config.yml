@@ -1,0 +1,45 @@
+# GitHub Pages Jekyll Configuration for Lone Survivors Website
+# This file helps with SEO and site configuration
+
+# Site settings
+title: "Lone Survivors - Epic Fantasy Adventure Game"
+description: "Embark on an epic fantasy adventure in a world where survival is everything. Play Lone Survivors now!"
+author: "Great Coltini Industries"
+url: "https://www.lonesurvivors.ca"  # Replace with your actual domain
+baseurl: ""
+
+# SEO settings
+lang: en_US
+
+# Social media
+social:
+  name: GreatColtini Industries
+  links:
+    - https://x.com/GreatColtiniInc
+    - https://bsky.app/profile/greatcoltiniinc.bsky.social
+    - https://tiktok.com/@greatcoltiniindustries
+    - https://youtube.com/@greatcoltiniindustries
+
+# Logo and images
+logo: /assets/Library Logo LONE SUVIVOR.png
+image: /assets/Library Header LONE SUVIVOR.png
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - SETUP-LINKS.md
+  - .gitignore
+  - .git/
+
+# Plugins (GitHub Pages automatically includes these)
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Collections and defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/Library Header LONE SUVIVOR.png
