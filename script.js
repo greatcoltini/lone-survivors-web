@@ -318,15 +318,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-function openEmailClient() {
-    const email = 'coltonmdonk@gmail.com'; 
-    const subject = 'Inquiry about Lone Survivors';
-    const body = 'Hello,\n\nI am interested in learning more about Lone Survivors.\n\nBest regards,';
-    
-    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailtoLink;
-}
-
 function shareGame(platform) {
     const url = window.location.href;
     const title = 'Check out Lone Survivors - Epic Fantasy Adventure Game!';
