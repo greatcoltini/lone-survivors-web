@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lone Survivors - Press Kit</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         .presskit-container {
             max-width: 900px;
@@ -51,6 +53,10 @@
         
         body {
             background-color: black;
+            color: var(--cream, #F5F5DC) !important;
+        }
+        .presskit-container, .presskit-container * {
+            color: var(--cream, #F5F5DC) !important;
         }
     </style>
 </head>
@@ -125,23 +131,48 @@
 
         <div class="presskit-section">
             <h2>About the Developer</h2>
-            <p>I'm a solo developer living just outside of Toronto, Ontario. I 
+            <p>
+                I'm a solo developer living just outside of Toronto, Ontario. I 
                 have always had a passion for game development - even way back to 
-                modding Halo Custom Edition (making custom maps!).
+                modding Halo Custom Edition (making custom maps!). I've delved in modding
+                a bunch of different games - even modding REPO (adding some minecraft stuff).
+                There's something so magical about seeing your work come to life on the screen 
+                before your eyes. 
 
+                <br><br>
                 For a long time I've wanted to pursue making actual games, and 
                 I decided to take the plunge with Lone Survivors around 2 years ago.
 
+                <br><br>
+                I've worked with Godot in my free time for at least a year before starting
+                on Lone Survivors, but after playing some of the recent survivors-likes I 
+                wanted to make my own version - with my own take on the genre.
+
+                <br><br>
                 And here we are!
             </p>
         </div>
 
         <div class="presskit-section">
             <h2>Additional Links</h2>
-            <ul>
-                <li>Steam: https://store.steampowered.com/app/3629280/Lone_Survivors/</li>
-                <li>Itch.io: https://greatcoltini.itch.io/lone-survivors/ </li>
-            </ul>
+                <div class="social-links text-lg-end">
+                    <a href="https://store.steampowered.com/app/3629280/Lone_Survivors/" class="social-link me-3" title="Steam" target="_blank" rel="noopener">
+                        <i class="bi bi-steam"></i>
+                    </a>
+                    <a href="https://greatcoltini.itch.io/lone-survivors" class="social-link me-3" title="Itch.io" target="_blank" rel="noopener">
+                        <i class="bi bi-controller"></i>
+                    </a>
+                    <a href="https://bsky.app/profile/greatcoltiniinc.bsky.social" class="social-link me-3" title="BlueSky">
+                        <i class="bi bi-cloud"></i>
+                    </a>
+                    <a href="https://x.com/GreatColtiniInc" class="social-link me-3" title="X (Twitter)">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/@greatcoltiniindustries" class="social-link" title="YouTube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
         </div>
     </div>
 </body>
